@@ -1,0 +1,1211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceHuy</title>
+    <script src="https://kit.fontawesome.com/1c6e232d4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/59/59439.png" type="" sizes="16x16">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__search">
+                <div class="header__logo">
+                    <img src="./assets/img/logofb.png" class="logo__img" alt="">
+                </div>
+                <label class="search">
+                    <div class="search__nav">
+                        <i class="fas fa-search search__icon"></i>
+                    </div>
+                    <input type="text" class="search__input" placeholder="Tìm kiếm trên Facebook">
+                    <div class="search__history">
+                        <div class="history__icon--back">
+                            <i class="fas fa-arrow-left"></i>
+                        </div>
+                        <div class="search__head">
+                            <h2 class="search__head-text">Tìm kiếm gần đây</h2>
+                            <h4 class="search__changed">Chỉnh sửa</h4>
+                        </div>
+                        <ul class="history__list">
+                            <li class="history__item">
+                                <img src="https://scontent.fsgn5-1.fna.fbcdn.net/v/t1.6435-9/189569200_882712222315178_298174521261419161_n.png?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WJcpWOyQuKsAX9P8zpH&_nc_ht=scontent.fsgn5-1.fna&oh=fc756c0d2d80422507c8dc5380dbf5cb&oe=61C691DF" alt="" class="history__img">
+                                <p class="history__text">Trường Đại học Cần Thơ</p>
+                                <i class="fas fa-times history__icon"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </label>            
+            </div>
+            <div class="header__choose">
+                <ul class="choose__list">
+                    <li class="choose__item icon--active">
+                        <a href="#" class="choose__icon icon--active"><i class="fas fa-home"></i></a>
+                    </li>
+                    <li class="choose__item ">
+                        <a href="friend.html" class="choose__icon"><i class="fas fa-user-friends"></i></a>
+                    </li>
+                    <li class="choose__item">
+                        <a href="#" class="choose__icon"><i class="fas fa-tv"></i></a>
+                    </li>
+                    <li class="choose__item">
+                        <a href="#" class="choose__icon"><i class="fas fa-store"></i></a>
+                    </li>
+                    <li class="choose__item">
+                        <a href="#" class="choose__icon"><i class="fas fa-gamepad"></i></a>
+                    </li>
+                </ul>
+            </div> 
+                <div class="header__accout">
+                    <a href="#" class="accout__info">
+                        <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/cp0/c0.11.80.80a/p80x80/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=9p_vQRexoX4AX8d0B2q&_nc_ht=scontent.fsgn5-10.fna&oh=0e5abdd4ad8226945266bf9b295b6443&oe=61C57DCB" alt="" class="info__img">
+                        <h6 class="accout__name">Huy</h6>
+                    </a>
+                    <div class="accout__menu accout-same">
+                        <label href="#" class="accout__link" for="checkbox__menu">
+                            <i class="fas fa-th accout__icon"></i>
+                        </label>
+                        <input type="checkbox" hidden name="" id="checkbox__menu">
+                        <div class="menu">
+                            <h1 class="menu__text">Menu</h1>
+                            <div class="menu__box">
+                                <div class="menuleft">
+                                    <div class="menuleft__search">
+                                        <i class="fas fa-search menuleft__search-icon"></i>
+                                        <input type="text" class="message__head-search menuleft__search-input" placeholder="Tìm kiếm trong menu">
+                                    </div>
+                                    <div class="menu__social">
+                                        <ul class="menu__social-list">
+                                            <h4 class="menu__social-list-content">Xã hội</h4>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/eXC82ZeepQ7.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Sự kiện</h3>
+                                                    <p class="menu__social-item__underheadtext">Tổ chức hoặc tìm sự kiện cùng những hoạt động khác trên mạng và ở quanh đây.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yx/r/-XF4FQcre_i.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Bạn bè</h3>
+                                                    <p class="menu__social-item__underheadtext">Tìm kiếm bạn bè hoặc những người bạn có thể biết.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/mk4dH3FK0jT.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Nhóm</h3>
+                                                    <p class="menu__social-item__underheadtext">Kết nối với những người cùng chung sở thích.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/DOal__ng_AH.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Bảng tin</h3>
+                                                    <p class="menu__social-item__underheadtext">Xem bài viết phù hợp của những người và Trang bạn theo dõi.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/i7hepQ2OeZg.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Trang</h3>
+                                                    <p class="menu__social-item__underheadtext">Xem bài viết phù hợp của những người và Trang bạn theo dõi.</p>
+                                                </div>
+                                            </li>
+                                        </ul>   
+                                        <hr class="border-down"> 
+                                        <ul class="menu__social-list">
+                                            <h4 class="menu__social-list-content">Giải trí</h4>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/uGfRd5KPhOI.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Video chơi game</h3>
+                                                    <p class="menu__social-item__underheadtext">Xem, kết nối với những game và người phát trực tiếp mà bạn yêu thích.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/XEWvxf1LQAG.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Chơi game</h3>
+                                                    <p class="menu__social-item__underheadtext">Chơi game bạn yêu thích.</p>
+                                                </div>
+                                            </li>
+                                            <li class="menu_social-item">
+                                                <div class="menu__social-img">
+                                                    <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/A1HlI2LVo58.png" alt="" class="menu__social-image">
+                                                </div>
+                                                <div class="menu__menu-head">
+                                                    <h3 class="menu__social-item__headtext">Wacth</h3>
+                                                    <p class="menu__social-item__underheadtext">Đích đến của video phù hợp với sở thích và quan hệ kết nối của bạn.</p>
+                                                </div>
+                                            </li>
+                                        </ul> 
+                                        <hr class="border-down">
+                                    </div>
+                                    <ul class="menu__social-list">
+                                        <h4 class="menu__social-list-content">Mua sắm</h4>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/xH4w-lk44we.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Facebook Pay</h3>
+                                                <p class="menu__social-item__underheadtext">Một cách dễ dàng, bảo mật để thanh toán trên các ứng dụng bạn đang dùng.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/9BDqQflVfXI.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Marketplace</h3>
+                                                <p class="menu__social-item__underheadtext">Mua bán trong cộng đồng của bạn.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-down">
+                                    <ul class="menu__social-list">
+                                        <h4 class="menu__social-list-content">Cá nhân</h4>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/WcCzeboYevF.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Hoạt động quảng cáo gần đây</h3>
+                                                <p class="menu__social-item__underheadtext">Xem toàn bộ quảng cáo mà bạn đã tương tác trên Facebook.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/AYj2837MmgX.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Kỷ niệm</h3>
+                                                <p class="menu__social-item__underheadtext">Lướt xem ảnh, video và bài viết cũ của bạn trên Facebook.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/2uPlV4oORjU.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Đã lưu</h3>
+                                                <p class="menu__social-item__underheadtext">Tìm bài viết, ảnh và video mà bạn đã lưu để xem sau.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/kULMG0uFcEQ.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Thời tiết</h3>
+                                                <p class="menu__social-item__underheadtext">Kiểm tra dự báo thời tiết tại địa phương và đăng ký nhận thông báo về tình hình thời tiết hàng ngày.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-down">
+                                    <ul class="menu__social-list">
+                                        <h4 class="menu__social-list-content">Chuyên nghiệp</h4>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/qR88GIDM38e.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Trình quản lý quảng cáo</h3>
+                                                <p class="menu__social-item__underheadtext">Tạo, quản lý và theo dõi hiệu quả quảng cáo.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yJ/r/EWFR9xI64Mg.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Việc làm</h3>
+                                                <p class="menu__social-item__underheadtext">Tìm việc làm phù hợp với bạn.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-down">
+                                    <ul class="menu__social-list">
+                                        <h4 class="menu__social-list-content">Nguồn lực cho cộng đồng</h4>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/tKwWVioirmj.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Trung tâm Khoa học Khí hậu</h3>
+                                                <p class="menu__social-item__underheadtext">Tìm hiểu về vấn đề biến đổi khí hậu và tác động của hiện tượng này.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/y7p-dcTnGV_.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Ứng phó khẩn cấp</h3>
+                                                <p class="menu__social-item__underheadtext">Tìm thông tin mới nhất về các cuộc khủng hoảng đang diễn ra trên thế giới.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/A2tHTy6ibgT.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Chiến dịch gây quỹ</h3>
+                                                <p class="menu__social-item__underheadtext">Quyên góp và gây quỹ cho tổ chức phi lợi nhuận và mục đích cá nhân.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-down">
+                                    <ul class="menu__social-list">
+                                        <h4 class="menu__social-list-content">Sản phẩm khác của Meta</h4>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/YF1bztyGuX-.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Messenger</h3>
+                                                <p class="menu__social-item__underheadtext">Chat ngay tức thì với bạn bè và những người đã kết nối.</p>
+                                            </div>
+                                        </li>
+                                        <li class="menu_social-item">
+                                            <div class="menu__social-img">
+                                                <img src="https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/HBcx-giUZ2Y.png" alt="" class="menu__social-image">
+                                            </div>
+                                            <div class="menu__menu-head">
+                                                <h3 class="menu__social-item__headtext">Messenger Nhí</h3>
+                                                <p class="menu__social-item__underheadtext">Cho phép bé nhắn tin với bạn thân và gia đình.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="menuright">
+                                    <h1 class="munuright_head">Tạo</h1>
+                                    <ul class="menuright__list">
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-edit menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Đăng</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-book-open menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Tin</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-video menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Phòng họp mặt</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-comment menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Bài viết trong nhóm</h2>
+                                        </li>
+                                    </ul>
+                                    <hr class="border-down">
+                                    <ul class="menuright__list">
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-flag menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Trang</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-book-open menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Quảng cáo</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-users menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Nhóm</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-plus-square menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Sự kiện</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-suitcase menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Việc làm</h2>
+                                        </li>
+                                        <li class="menuright__item">
+                                            <div class="menuright__item-boxicon">
+                                                <i class="fas fa-shopping-bag menuright__item-icon"></i>
+                                            </div>
+                                            <h2 class="menuright__item-text">Bài niêm yết trên Marketplace</h2>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accout__message accout-same">
+                        <label class="accout__link" for="checkbox-messenger">
+                            <i class="fab fa-facebook-messenger accout__icon"></i>
+                        </label>
+                        <input type="checkbox" hidden id="checkbox-messenger" class="checkbox__messenger">
+                        <div class="message">
+                            <div class="message__head">
+                                <h2 class="message__head-text">Messenger</h2>
+                                <div class="message__head-icons">
+                                    <div class="message__head-icon"><i class="fas fa-ellipsis-h"></i></div>
+                                    <div class="message__head-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+                                    <div class="message__head-icon"><i class="fas fa-video"></i></div>
+                                    <div class="message__head-icon"><i class="far fa-edit"></i></div> 
+                                </div>
+                            </div>
+                                <div class="message__head-search--messenger">
+                                <i class="fas fa-search message__head-search--messenger--icon"></i>
+                                <input type="text" class="message__head-search" placeholder="Tìm kiếm trên Messenger">
+                                </div>
+                                <ul class="message__head-list">
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="message__head-item">
+                                        <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/p100x100/37725383_335277260344797_314196090565951488_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=4de414&_nc_ohc=anq6OiUGJ6QAX_f2X2I&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=3bc502f05e65b16ffcdc6959fca1644a&oe=61C7F29F" alt="" class="message__head-item__img">
+                                        <div class="message__head-item__text">
+                                            <h5 class="message__head-item__text-user">Group AE Nhây Lầy</h5>
+                                            <div class="message--head-item__same">
+                                                <h6 class="message__head-item__text-message">Huy Hoàng: Huy đẹp trai</h6>
+                                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                                <h6 class="message__head-item__text-message">17 phút</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>                       
+                        </div>
+                    
+                </div>
+                    <div class="accout__notify accout-same">
+                        <label href="#" class="accout__link" for="checkbox-notify">
+                            <i class="fas fa-bell accout__icon"></i>
+                        </label>
+                        <input type="checkbox" hidden id="checkbox-notify">
+                        <div class="notify">
+                            <div class="notify__head">
+                                <h2 class="notify__head-text">Thông báo</h2>
+                                <div class="notify__head-icon"><i class="fas fa-ellipsis-h"></i></div>
+                            </div>
+                            <div class="notify__underhead">
+                                <h2 class="notify__underhead-text">Trước đó</h2>
+                                <div class="notify__underhead-seeall">Xem tất cả</div>
+                            </div>
+                            <div class="notify__list">
+                                <div class="notify__item">
+                                    <div class="notify__item-img-group">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-1/c2.0.130.130a/p130x130/212330072_295926382267472_7063786446984891277_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=5xKbhiIULQ4AX_K2DlE&_nc_ht=scontent.fsgn5-4.fna&oh=a34ea8e809c4e9388060ccded47182fd&oe=61A786CF" alt="" class="notify__item-img">
+                                    <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/N_dkpQYnmIm.png&quot;); background-position: 0px -900px; background-size: 30px 1830px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </div>
+                                    <div class="notify__item-child">            
+                                    <p class="notify__item-text">Vũ Ngô đã thêm một ảnh trong Lập Trình C,C++,C#,java,Python,PHP</p>
+                                    <div class="notify__item-timeout">14 giờ trước</div>
+                                    </div>
+                                    <div class="notify__notseen"><i class="fas fa-circle notify__notseen-icon" ></i></div>
+                                </div> 
+                                <div class="notify__item">
+                                    <div class="notify__item-img-group">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-1/c2.0.130.130a/p130x130/212330072_295926382267472_7063786446984891277_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=5xKbhiIULQ4AX_K2DlE&_nc_ht=scontent.fsgn5-4.fna&oh=a34ea8e809c4e9388060ccded47182fd&oe=61A786CF" alt="" class="notify__item-img">
+                                    <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/N_dkpQYnmIm.png&quot;); background-position: 0px -900px; background-size: 30px 1830px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </div>
+                                    <div class="notify__item-child">            
+                                    <p class="notify__item-text">Vũ Ngô đã thêm một ảnh trong Lập Trình C,C++,C#,java,Python,PHP</p>
+                                    <div class="notify__item-timeout">14 giờ trước</div>
+                                    </div>
+                                    <div class="notify__notseen"><i class="fas fa-circle notify__notseen-icon" ></i></div>
+                                </div>    
+                                <div class="notify__item">
+                                    <div class="notify__item-img-group">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-1/c2.0.130.130a/p130x130/212330072_295926382267472_7063786446984891277_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=5xKbhiIULQ4AX_K2DlE&_nc_ht=scontent.fsgn5-4.fna&oh=a34ea8e809c4e9388060ccded47182fd&oe=61A786CF" alt="" class="notify__item-img">
+                                    <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/N_dkpQYnmIm.png&quot;); background-position: 0px -900px; background-size: 30px 1830px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </div>
+                                    <div class="notify__item-child">            
+                                    <p class="notify__item-text">Vũ Ngô đã thêm một ảnh trong Lập Trình C,C++,C#,java,Python,PHP</p>
+                                    <div class="notify__item-timeout">14 giờ trước</div>
+                                    </div>
+                                    <div class="notify__notseen"><i class="fas fa-circle notify__notseen-icon" ></i></div>
+                                </div> 
+                                <div class="notify__item">
+                                    <div class="notify__item-img-group">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-1/c2.0.130.130a/p130x130/212330072_295926382267472_7063786446984891277_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=5xKbhiIULQ4AX_K2DlE&_nc_ht=scontent.fsgn5-4.fna&oh=a34ea8e809c4e9388060ccded47182fd&oe=61A786CF" alt="" class="notify__item-img">
+                                    <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/N_dkpQYnmIm.png&quot;); background-position: 0px -900px; background-size: 30px 1830px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </div>
+                                    <div class="notify__item-child">            
+                                    <p class="notify__item-text">Vũ Ngô đã thêm một ảnh trong Lập Trình C,C++,C#,java,Python,PHP</p>
+                                    <div class="notify__item-timeout">14 giờ trước</div>
+                                    </div>
+                                    <div class="notify__notseen"><i class="fas fa-circle notify__notseen-icon" ></i></div>
+                                </div> 
+                                <div class="notify__item">
+                                    <div class="notify__item-img-group">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.30808-1/c2.0.130.130a/p130x130/212330072_295926382267472_7063786446984891277_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=5xKbhiIULQ4AX_K2DlE&_nc_ht=scontent.fsgn5-4.fna&oh=a34ea8e809c4e9388060ccded47182fd&oe=61A786CF" alt="" class="notify__item-img">
+                                    <i data-visualcompletion="css-img" class="hu5pjgll bixrwtb6" style="height: 28px; width: 28px; background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/N_dkpQYnmIm.png&quot;); background-position: 0px -900px; background-size: 30px 1830px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </div>
+                                    <div class="notify__item-child">            
+                                    <p class="notify__item-text">Vũ Ngô đã thêm một ảnh trong Lập Trình C,C++,C#,java,Python,PHP</p>
+                                    <div class="notify__item-timeout">14 giờ trước</div>
+                                    </div>
+                                    <div class="notify__notseen"><i class="fas fa-circle notify__notseen-icon" ></i></div>
+                                </div>       
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accout__setting accout-same">
+                        <label href="#" class="accout__link" for="checkbox__Setting">
+                            <i class="fas fa-caret-down accout__icon"></i>
+                        </label>
+                        <input type="checkbox" hidden id="checkbox__Setting">
+                        <div class="setting">
+                            <div class="setting__head-text-img">  
+                                <div class="setting__head-img">
+                                    <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/c0.13.100.100a/p100x100/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=75q5VddcTxcAX9zIpye&_nc_ht=scontent.fsgn5-10.fna&oh=bf66b0b0cc5f861dc3e55ded27d9543a&oe=61CBB2B9" alt="" class="setting__head-img">
+                                </div>
+                                <div class="setting__head-text"> 
+                                    <h6 class="setting__head-name">Huy Hoàng</h6>
+                                    <p class="setting__head-undername">Xem trang cá nhân của bạn</p>
+                                </div>  
+                            </div>
+                            <hr class="border-down">
+                            <div class="setting__body">
+                                <div class="setting__body-icon style-icon-same-setting"><i class="fas fa-exclamation-circle"></i></div>
+                                <div class="setting__body-text">
+                                    <h6 class="setting__body-name">Đóng góp ý kiến</h6>
+                                    <p class="setting__body-undername">Góp phần cải thiện phiên bản Facebook mới nhất.</p>
+                                </div>
+                            </div>
+                            <hr class="border-down">
+                            <ul class="setting__list">
+                                <li class="setting__item">
+                                    <a href="#" class="setting__link">
+                                        <div class="setting__item-icon style-icon-same-setting"><i class="fas fa-cog"></i></div>
+                                        <div class="settimg__item-name-icon2">
+                                            <h6 class="setting__item-name">Cài đặt & quyền riêng tư</h6>
+                                            <div class="setting__item-icontwo"><i class="fas fa-chevron-right"></i></div>                                            
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="setting__item">
+                                    <a href="#" class="setting__link">
+                                        <div class="setting__item-icon style-icon-same-setting"><i class="fas fa-question-circle"></i></div>
+                                        <div class="settimg__item-name-icon2">
+                                            <h6 class="setting__item-name">Trợ giúp & hỗ trợ</h6>
+                                            <div class="setting__item-icontwo"><i class="fas fa-chevron-right"></i></div>                                            
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="setting__item">
+                                    <a href="#" class="setting__link">
+                                        <div class="setting__item-icon style-icon-same-setting"><i class="fas fa-moon"></i></div>
+                                        <div class="settimg__item-name-icon2">
+                                            <h6 class="setting__item-name">Màn hình & trợ năng</h6>
+                                            <div class="setting__item-icontwo"><i class="fas fa-chevron-right"></i></div>                                            
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="setting__item">
+                                    <a href="#" class="setting__link">
+                                        <div class="setting__item-icon style-icon-same-setting"><i class="fas fa-sign-out-alt"></i></div>
+                                        <div class="settimg__item-name-icon2">
+                                            <h6 class="setting__item-name">Đăng xuất</h6>
+                                            <div class="setting__item-icontwo"><i class="fas fa-chevron-right"></i></div>                                            
+                                        </div>
+                                    </a>
+                                </li>     
+                            </ul>
+                            <div class="setting__footer">
+                                <a href="#" class="setting__footer-text">Quyền riêng tư </a>
+                                <span class="setting-dot">&nbsp·&nbsp</span>
+                                <a href="#" class="setting__footer-text">Điều khoản </a>
+                                <span class="setting-dot">&nbsp·&nbsp </span>
+                                <a href="#" class="setting__footer-text">Quảng cáo </a>
+                                <span class="setting-dot">&nbsp·&nbsp </span>
+                                <a href="#" class="setting__footer-text">Cookie </a>
+                                <span class="setting-dot">&nbsp·&nbsp </span>
+                                <a href="#" class="setting__footer-text">Lựa chọn quảng cáo </a>
+                                <span class="setting-dot">&nbsp·&nbsp </span>
+                                <a href="#" class="setting__footer-text">Xem thêm </a>
+                                <span class="setting-dot">&nbsp·&nbsp </span>
+                                <h6 class="seeting__footer__meta">Meta © 2021</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+        </header>
+        <hr class="border-down-header">
+        <div class="container">
+            <div class="container__nav">
+                <ul class="container__nav-list">
+                    <li class="container__nav-item">
+                        <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/cp0/c0.11.86.86a/p86x86/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=dbb9e7&_nc_ohc=J7SyTLF8onQAX9ZTqRi&_nc_ht=scontent.fsgn5-10.fna&oh=b0498f956381699023cdf48eff9c5fc0&oe=61CB2241" alt="" class="container__nav-item__img container__nav-item__img--circle ">
+                        <h2 class="container__nav-item__text">Huy Hoàng</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yx/r/-XF4FQcre_i.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Bạn bè</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yr/r/2uPlV4oORjU.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Đã lưu</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yD/r/mk4dH3FK0jT.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Nhóm</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/ys/r/9BDqQflVfXI.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Marketplace</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yG/r/A1HlI2LVo58.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Watch</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/y7/r/AYj2837MmgX.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Kỷ niệm</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yZ/r/i7hepQ2OeZg.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Trang</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <img src="https://www.facebook.com/rsrc.php/v3/yd/r/9-o1e6LN_TX.png" alt="" class="container__nav-item__img">
+                        <h2 class="container__nav-item__text">Lối tắt</h2>
+                    </li>
+                    <li class="container__nav-item">
+                        <i class="icon-arrow-down container__nav-item__icon--circle"></i>
+                        <h2 class="container__nav-item__text">Xem thêm</h2>
+                    </li>
+                </ul>
+                <hr class="border-down">
+                <div class="container__undernav">
+                    <div class="container__undernavhead">
+                        <h2 class="container__undernav-text">Lối tắt của bạn</h2>
+                        <h2 class="container__undernav-edit">Chỉnh sửa</h2>
+                    </div>
+                <ul class="container__undernav-listgame">
+                    <li class="container__undernav-itemgame">
+                        <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t39.2081-6/c5.5.50.50a/p56x56/189521644_165777635482912_4437042072195164601_n.png?_nc_cat=1&ccb=1-5&_nc_sid=eaa83b&_nc_ohc=Nk9qyABHwaAAX8PAiTZ&_nc_ht=scontent.fsgn5-4.fna&oh=46b29988f8bae07774c3877335fb33a7&oe=61AA51ED" alt="" class="container__undernav-listgame-img">
+                        <div class="container__undernav-listgame-text">Mergest Kingdom</div>
+                    </li>
+                    <li class="container__undernav-itemgame">
+                        <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t39.2081-6/c5.5.50.50a/p56x56/211237461_4325521557486125_8030585975952058574_n.png?_nc_cat=106&ccb=1-5&_nc_sid=eaa83b&_nc_ohc=nXSgs_jCX80AX8dx-Jv&_nc_ht=scontent.fsgn5-6.fna&oh=1a2e4abf8921f20d5a00a3311df716d0&oe=61AAE308" alt="" class="container__undernav-listgame-img">
+                        <div class="container__undernav-listgame-text">Idle Farming Empire</div>
+                    </li>
+                </ul>
+                <div class="setting__footer">
+                    <a href="#" class="setting__footer-text">Quyền riêng tư </a>
+                    <span class="setting-dot">&nbsp·&nbsp</span>
+                    <a href="#" class="setting__footer-text">Điều khoản </a>
+                    <span class="setting-dot">&nbsp·&nbsp </span>
+                    <a href="#" class="setting__footer-text">Quảng cáo </a>
+                    <span class="setting-dot">&nbsp·&nbsp </span>
+                    <a href="#" class="setting__footer-text">Lựa chọn quảng cáo </a>
+                    <span class="setting-dot">&nbsp·&nbsp </span>
+                    <a href="#" class="setting__footer-text">Cookie </a>
+                    <span class="setting-dot">&nbsp·&nbsp </span>
+                    <a href="#" class="setting__footer-text">Xem thêm </a>
+                    <span class="setting-dot">&nbsp·&nbsp </span>
+                    <h6 class="seeting__footer__meta">Meta © 2021</h6>
+                </div>
+            </div>
+            </div>
+
+            <div class="content">
+                <div class="slider__next">
+                    <i class="fas fa-chevron-right color-icon"></i>
+                </div>
+                <div class="slider__back">
+                    <i class="fas fa-chevron-left color-icon"></i>
+                </div>
+                <div class="slider">
+                    <div class="slider__item">
+                        
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-img"></div>
+                        <div class="slider__item-text-icon">
+                            <div class="slider__item-icon"><i class="slider__item-icon fas fa-plus-circle"></i></div>
+                            <h6 class="slider__item-text">Tạo tin</h6>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item padding-left">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                    <div class="slider__item">
+                        <div class="slider__item-user">
+                            <div class="slider__item-user__pictrue">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-1/cp0/c0.0.60.60a/p60x60/256024881_612952153234313_8207641276822235472_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Yh3FLLo13gQAX_XEwhA&_nc_ht=scontent.fsgn5-10.fna&oh=57e35ce1a04f90db022575bde8d19f43&oe=61AB0E64" alt="" class="slider__item-user__img">
+                            </div>
+                            <div class="slider__item-user__name">Nhung Ha</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main">
+                    <div class="main__userbox">
+                        <div class="main__user-img-think">
+                            <div class="main__userbox__picture">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/cp0/c0.8.60.60a/p60x60/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=J7SyTLF8onQAX-wzWEU&tn=RH5pVlrSS0f7q_SY&_nc_ht=scontent.fsgn5-10.fna&oh=aa58960b7e622f8bfe49c3e7e4a764a0&oe=61CE45EE" alt="" class="main__userbox__img">
+                            </div>
+                            <div class="main__userbox__think">
+                                <h1 class="main__userbox__think-text">Huy ơi, bạn đang nghĩ gì thế?</h1>
+                            </div>
+                        </div>
+                        <hr class="border-down">
+                        <div class="main__userbox-under">
+                            <div class="main__userbox-item">
+                                <div class="main__userbox-under__icon">
+                                    <i class="fas fa-video main__userbox-under__icon--video"></i>
+                                </div>
+                                <div class="main__userbox-under__text">
+                                    Video trực tiếp
+                                </div>
+                            </div>
+                            <div class="main__userbox-item">
+                                <div class="main__userbox-under__icon">
+                                    <i class="fas fa-images main__userbox-under__icon--video--img"></i>
+                                </div>
+                                <div class="main__userbox-under__text">
+                                    Ảnh/Video
+                                </div>
+                            </div>
+                            <div class="main__userbox-item">
+                                <div class="main__userbox-under__icon">
+                                    <i class="far fa-laugh main__userbox-under__icon--video--emotion"></i>
+                                </div>
+                                <div class="main__userbox-under__text">
+                                    Cảm xúc/Hoạt động
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__slider">
+                        <div class="main__slider__next">
+                            <i class="fas fa-chevron-right color-icon"></i>
+                        </div>
+                        <div class="main__slider__back">
+                            <i class="fas fa-chevron-left color-icon"></i>
+                        </div>
+                        <div class="main__slider-box">
+                            <div class="main__slider-creatroom">
+                                <div style = "background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/8m8W6qk28Db.png')" alt="" class="main__slider-creatroom__img">
+                                </div>
+                                <div class="main__slider-creatrooms">
+                                    <h5 class="main__slider-creatroom__text">Tạo phòng họp mặt</h5>
+                                </div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                            <div class="main__slider-useractive">
+                                <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t39.30808-1/cp0/s80x80/227386455_1654510191606243_1372821727183535208_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=7206a8&_nc_ohc=cyCkOaf00JYAX_LBkoz&_nc_ht=scontent.fsgn5-11.fna&oh=8269af318b6eb54919d8ec91e67cc211&oe=61AD8833" alt="" class="main__slider-user">
+                                <div class="main__slider-user--active"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main__content">
+                        <div class="main__item">
+                            <div class="main__content-head">
+                                <div class="content-head__imgs">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.18169-1/cp0/p60x60/10891538_10152671698962914_1692053340505521561_n.png?_nc_cat=1&ccb=1-5&_nc_sid=1eb0c7&_nc_ohc=KRAbnqnNtYMAX_SONit&_nc_ht=scontent.fsgn5-4.fna&oh=aa3f4f262bb0786b65533cfb1482b4f2&oe=61D0289A" alt="" class="content-head__img">
+                                </div>
+                                <div class="content-head__text">
+                                    <div class="content-head__headtext">
+                                        <a href="#" class="content-head__headtext-name">GameK</a>
+                                        <div class="content-head__headtext-icon">
+                                            <i class="fas fa-check-circle content-head__headtext-icon-color"></i>
+                                        </div>
+                                    </div>
+                                    <div class="content-head__underheadtext">
+                                        <span class="setting-dot">2 giờ</span>&nbsp·&nbsp
+                                        <div class="content-head__underheadtext-icon">
+                                            <i class="fas fa-globe-americas"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-head__choose">
+                                    <i class="fas fa-ellipsis-h content-head__choose-icon"></i>
+                                </div>
+                            </div>
+                            <div class="content__body">
+                                <p class="content__paragraph">Bác Quảng 1 thời đỉnh lắm</p>
+                            </div>
+                            <div class="content__img">
+                                <img src="https://external.fsgn5-8.fna.fbcdn.net/safe_image.php?d=AQHdYOFKR0AwxrRI&w=500&h=261&url=https%3A%2F%2Fgamek.mediacdn.vn%2Fthumb_w%2F600%2F133514250583805952%2F2021%2F12%2F2%2Fvlcsnap-2021-11-26-23h17m19s218-1637943591325330265772-0-46-480-814-crop-1638170693951346114971-16384337055841749405775.jpg&cfs=1&ext=jpg&_nc_oe=6f23e&_nc_sid=06c271&ccb=3-5&_nc_hash=AQFONbIHDPWYMeCR" alt="" class="content__body-img">
+                            </div>
+                            <div class="content__underimg">
+                                <h1 class="content__underimg-nameuser">GAMEK.VN</h1>
+                                <p class="content__underimg-usertext">Hơn 20 năm trước, CEO BKAV Nguyễn Tử Quảng đã chặn đứng virus nguy hiểm tại Việt Nam như thế nào?</p>
+                            </div>
+                            <div class="content__users-like">
+                                <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" alt="" class="content__users-iconlike">
+                                <a class="content__users-numberusser">156</a>
+                            </div>
+                            <hr class="border-down border-down-content"> 
+                            <div class="content__footer">
+                                <div class="content__footerbox">
+                                    <i class="far fa-thumbs-up"></i>
+                                    <h6 class="content__footerbox-text">Thích</h6>
+                                </div>
+                                <div class="content__footerbox">
+                                    <i class="far fa-comment-alt"></i>
+                                    <h6 class="content__footerbox-text">Bình luận</h6>
+                                </div>
+                                <div class="content__footerbox">
+                                    <i class="fas fa-share-square"></i>
+                                    <h6 class="content__footerbox-text">Chia sẻ</h6>
+                                </div>
+                            </div>
+                            <hr class="border-down border-down-content"> 
+                            <div class="content__footer-comment">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/cp0/c0.11.80.80a/p80x80/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=h3o7pmZIlS0AX9PpBLo&_nc_ht=scontent.fsgn5-10.fna&oh=47cb68f3c4527949c5d313de5db9c38b&oe=61CD66CB" alt="" class="content__footer-comment__img">
+                                <div class="content__footer-comment-box">
+                                    <input placeholder="Viết bình luận..." type="text" class="content__footer-comment-input">
+                                    <div class="content__footer-comment-icons">
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-user-ninja"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="far fa-smile"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-camera-retro"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-gift"></i> 
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-image"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__item">
+                            <div class="main__content-head">
+                                <div class="content-head__imgs">
+                                    <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t1.6435-1/p200x200/152005240_1927884420686236_795805370279740428_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=1eb0c7&_nc_ohc=c0Dk_vrvwpYAX-xxsMv&tn=rX_K-Ygkb0n0bY75&_nc_ht=scontent.fsgn5-4.fna&oh=8a28203f242b4c7021224e69977eeba6&oe=61D0338E" alt="" class="content-head__img">
+                                </div>
+                                <div class="content-head__text">
+                                    <div class="content-head__headtext">
+                                        <h2  class="content-head__headtext-name">Di động - Di Động Việt</h2>
+                                        <div class="content-head__headtext-icon">
+                                            <i class="fas fa-check-circle content-head__headtext-icon-color"></i>
+                                        </div>
+                                    </div>
+                                    <div class="content-head__underheadtext">
+                                        <span class="setting-dot">14 giờ</span>&nbsp·&nbsp
+                                        <div class="content-head__underheadtext-icon">
+                                            <i class="fas fa-globe-americas"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-head__choose">
+                                    <i class="fas fa-ellipsis-h content-head__choose-icon"></i>
+                                </div>
+                            </div>
+                            <div class="content__body">
+                                <p class="content__paragraph">Xiaomi Redmi 10 về tầm giá sale cực đậm, chưa đến 4 triệu nữa😱. Chỉ 3,69 triệu hoy nè (Niêm yết: 4,29 triệu)</p>
+                            </div>
+                            <div class="content__img">
+                                <video class="video" controls src="./video/video1.mp4" style="display: block;"></video>
+                            </div>
+                            <div class="content__underimg">
+                                <h1 class="content__underimg-nameuser">didongviet.vn</h1>
+                                <p class="content__underimg-usertext">Màn hình 6.5 inch, cấu hình ổn áp, lướt web mượt mà với con chipset MediaTek Helio G88. Học online, giải trí cực chất. Đồng thời cụm camera cảm biến 50MP, bảo hành lên đến 18 tháng chính hãng....… </p>
+                            </div>
+                            <div class="content__users-like">
+                                <img src="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 16 16'%3e%3cdefs%3e%3clinearGradient id='a' x1='50%25' x2='50%25' y1='0%25' y2='100%25'%3e%3cstop offset='0%25' stop-color='%2318AFFF'/%3e%3cstop offset='100%25' stop-color='%230062DF'/%3e%3c/linearGradient%3e%3cfilter id='c' width='118.8%25' height='118.8%25' x='-9.4%25' y='-9.4%25' filterUnits='objectBoundingBox'%3e%3cfeGaussianBlur in='SourceAlpha' result='shadowBlurInner1' stdDeviation='1'/%3e%3cfeOffset dy='-1' in='shadowBlurInner1' result='shadowOffsetInner1'/%3e%3cfeComposite in='shadowOffsetInner1' in2='SourceAlpha' k2='-1' k3='1' operator='arithmetic' result='shadowInnerInner1'/%3e%3cfeColorMatrix in='shadowInnerInner1' values='0 0 0 0 0 0 0 0 0 0.299356041 0 0 0 0 0.681187726 0 0 0 0.3495684 0'/%3e%3c/filter%3e%3cpath id='b' d='M8 0a8 8 0 00-8 8 8 8 0 1016 0 8 8 0 00-8-8z'/%3e%3c/defs%3e%3cg fill='none'%3e%3cuse fill='url(%23a)' xlink:href='%23b'/%3e%3cuse fill='black' filter='url(%23c)' xlink:href='%23b'/%3e%3cpath fill='white' d='M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725a.73.73 0 01.089.546c-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666zM3.6 7h.8a.6.6 0 01.6.6v3.8a.6.6 0 01-.6.6h-.8a.6.6 0 01-.6-.6V7.6a.6.6 0 01.6-.6z'/%3e%3c/g%3e%3c/svg%3e" alt="" class="content__users-iconlike">
+                                <a class="content__users-numberusser">1.2k</a>
+                            </div>
+                            <hr class="border-down border-down-content"> 
+                            <div class="content__footer">
+                                <div class="content__footerbox">
+                                    <i class="far fa-thumbs-up"></i>
+                                    <h6 class="content__footerbox-text">Thích</h6>
+                                </div>
+                                <div class="content__footerbox">
+                                    <i class="far fa-comment-alt"></i>
+                                    <h6 class="content__footerbox-text">Bình luận</h6>
+                                </div>
+                                <div class="content__footerbox">
+                                    <i class="fas fa-share-square"></i>
+                                    <h6 class="content__footerbox-text">Chia sẻ</h6>
+                                </div>
+                            </div>
+                            <hr class="border-down border-down-content"> 
+                            <div class="content__footer-comment">
+                                <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.6435-1/cp0/c0.11.80.80a/p80x80/118595606_822767198262465_4307560610844170905_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=7206a8&_nc_ohc=h3o7pmZIlS0AX9PpBLo&_nc_ht=scontent.fsgn5-10.fna&oh=47cb68f3c4527949c5d313de5db9c38b&oe=61CD66CB" alt="" class="content__footer-comment__img">
+                                <div class="content__footer-comment-box">
+                                    <input placeholder="Viết bình luận..." type="text" class="content__footer-comment-input">
+                                    <div class="content__footer-comment-icons">
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-user-ninja"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="far fa-smile"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-camera-retro"></i>
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-gift"></i> 
+                                        </div>
+                                        <div class="content__footer-comment-icon">
+                                            <i class="fas fa-image"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category__right">
+                <div class="category__righthead">
+                    <h1 class="category__righthead-text">Được tài trợ</h1>
+                    <div class="category__righthead-item">
+                        <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t45.1600-4/cp0/q75/spS444/p296x100/241692029_6252876352631_1970253620172135935_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=67cdda&_nc_ohc=nWEl_jy0IjQAX_dMFVM&_nc_ht=scontent.fsgn5-4.fna&oh=dc9dc81ed776dff482241d4730423894&oe=61AEA40C" alt="" class="category__righthead-item__img">
+                        <div class="category__righthead-item__box">
+                            <p class="category__righthead-item__box-paragraph">TƯNG BỪNG CHÀO ĐÓN "MÔN PHÁI MỚI" THIÊN SƠN</p>
+                            <h6 class="category__righthead-item__box-owner">cuuam.gosu.vn</h6>
+                        </div>
+                    </div>
+                    <div class="category__righthead-item">
+                        <img src="https://scontent.fsgn5-4.fna.fbcdn.net/v/t45.1600-4/cp0/q75/spS444/p296x100/194484182_23848002198700391_4322638678952833879_n.jpg?_nc_cat=1&ccb=1-5&_nc_sid=67cdda&_nc_ohc=qvSL8zcUtfoAX8jIah9&_nc_ht=scontent.fsgn5-4.fna&oh=8d8760ab7937b67fcf0b2612c37d8411&oe=61AEC846" alt="" class="category__righthead-item__img">
+                        <div class="category__righthead-item__box">
+                            <p class="category__righthead-item__box-paragraph">NFT Marketplace</p>
+                            <h6 class="category__righthead-item__box-owner">crypto.com</h6>
+                        </div>
+                    </div>
+                </div>
+                <hr class="border-down"> 
+                <div class="category__right__underhead">
+                    <div class="category__right__underhead-head">
+                        <h1 class="category__right__underhead-head-text">Người liên hệ</h1>
+                        <div class="category__right__underhead-head-icons">
+                            <div class="category__right__underhead-head-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="category__right__underhead-head-icon">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div class="category__right__underhead-head-icon">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="communicate">
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                        <div class="communicate__item">
+                            <img src="https://scontent.fsgn5-6.fna.fbcdn.net/v/t1.6435-1/cp0/p56x56/148266187_714973169383770_3512810713726561679_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=7206a8&_nc_ohc=jb7WuqAhdp8AX_6AEoY&_nc_ht=scontent.fsgn5-6.fna&oh=812155eac8f0b9c925a9bc4baa2714c4&oe=61CE36F2" alt="" class="commutnicate__item-img">
+                            <div class="communicate__item--active"></div>
+                            <h1 class="communicate__item-nameusser">Phạm Kim Anh</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
